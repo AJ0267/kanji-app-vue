@@ -33,7 +33,7 @@
             </div>
           </div>
 
-          <h1 class="text-xl font-bold mb-2">Kanji Information</h1>
+          <h2 class="text-lg font-bold mb-2">Kanji Information</h2>
           <p class="mb-1">
             <strong>Grade:</strong>
             {{ kanjiData ? kanjiData.grade : exampleData.grade }}
@@ -52,7 +52,6 @@
                 : "N" + (exampleData.jlpt + 1)
             }}
           </p>
-          <br />
           <p class="mb-1">
             <strong>Kanji:</strong>
             {{ kanjiData ? kanjiData.kanji : exampleData.kanji }}
@@ -65,7 +64,6 @@
                 : exampleData.meanings.join(", ")
             }}
           </p>
-          <br />
           <p class="mb-1">
             <strong>On Readings:</strong>
             {{
@@ -91,6 +89,20 @@
         class="mt-4 text-center text-gray-500"
       >
         <p>No data found. Please search for a Kanji character.</p>
+      </div>
+
+      <!-- Smaller Card for More Data -->
+      <div
+        v-if="kanjiData && searchInitiated"
+        class="mt-4 w-full max-w-full cursor-pointer"
+        @click="redirectToJisho"
+      >
+        <div class="bg-blue-100 shadow-lg rounded-lg p-4 text-center">
+          <p class="font-bold text-blue-600">More Data</p>
+          <p class="text-sm text-gray-500">
+            Click for more details on Jisho.org
+          </p>
+        </div>
       </div>
     </div>
   </div>
@@ -137,6 +149,13 @@ export default {
         this.kanjiData = null; // Reset to null in case of error
       } finally {
         this.loading = false; // Reset loading state after fetching data
+      }
+    },
+    redirectToJisho() {
+      // Redirect to Jisho.org with the Kanji character
+      if (this.kanjiData) {
+        const kanji = this.kanjiData.kanji;
+        window.open(`https://jisho.org/search/${kanji} %23kanji`, "_blank");
       }
     },
     resetData() {
