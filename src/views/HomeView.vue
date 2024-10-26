@@ -25,8 +25,8 @@ export default {
         route: '/search',
       },
       {
-        title: "List",
-        description: "View a list of Kanji.",
+        title: "Kanji List",
+        description: "lists of Kanji.",
         route: '/list',
       },
     ];

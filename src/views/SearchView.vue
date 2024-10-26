@@ -1,7 +1,7 @@
 <template>
     <div>
       <Navbar
-        title="Search"
+        title="Search Kanji"
         titleColor="#333"
         searchPlaceholder="Search for something..."
         buttonText="Go"

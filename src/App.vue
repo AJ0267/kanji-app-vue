@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="navbar bg-base-100 shadow-md mb-6" v-if="$route.name === 'home'">
-      <a class="btn btn-ghost text-xl">kanjiApp</a>
+      <a class="btn btn-ghost text-xl">KanjiApp</a>
     </div>
     
     
