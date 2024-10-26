@@ -4,7 +4,7 @@
     @click.prevent="$emit('onClick')"
   >
     <div class="card-body flex flex-col items-center justify-center h-full">
-      <h1 class="text-6xl font-bold text-center select-none">{{ title }}</h1>
+      <h1 class="text-5xl font-bold text-center select-none">{{ title }}</h1>
       <p class="text-center">{{ description }}</p>
     </div>
   </a>
