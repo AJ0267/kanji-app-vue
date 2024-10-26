@@ -1,4 +1,266 @@
 {
+  "N1": [
+    {
+      "character": "氏",
+      "meanings": ["family name", "surname", "clan"],
+      "onyomi": ["シ"],
+      "kunyomi": ["うじ"]
+    },
+    {
+      "character": "統",
+      "meanings": ["ruling", "governing"],
+      "onyomi": ["トウ"],
+      "kunyomi": ["す(べる)"]
+    },
+    {
+      "character": "基",
+      "meanings": ["fundamentals", "foundation"],
+      "onyomi": ["キ"],
+      "kunyomi": ["もと", "もとい"]
+    },
+    {
+      "character": "価",
+      "meanings": ["value", "price"],
+      "onyomi": ["カ"],
+      "kunyomi": ["あたい"]
+    },
+    {
+      "character": "提",
+      "meanings": ["propose", "take along", "carry in hand"],
+      "onyomi": ["テイ"],
+      "kunyomi": ["さ(げる)"]
+    },
+    {
+      "character": "挙",
+      "meanings": ["raise", "plan", "project", "behavior", "actions"],
+      "onyomi": ["キョ"],
+      "kunyomi": ["あ(げる)", "こぞ(る)"]
+    },
+    {
+      "character": "応",
+      "meanings": ["apply", "answer", "yes", "OK", "reply", "accept"],
+      "onyomi": ["オウ"],
+      "kunyomi": ["こた(える)"]
+    },
+    {
+      "character": "企",
+      "meanings": ["undertake", "scheme", "design", "attempt", "plan"],
+      "onyomi": ["キ"],
+      "kunyomi": ["くわだ(てる)", "たくら(む)"]
+    },
+    {
+      "character": "検",
+      "meanings": ["examination", "investigate"],
+      "onyomi": ["ケン"],
+      "kunyomi": ["しら(べる)"]
+    },
+    {
+      "character": "藤",
+      "meanings": ["wisteria"],
+      "onyomi": ["トウ"],
+      "kunyomi": ["ふじ"]
+    }
+  ],
+  "N2": [
+    {
+      "character": "党",
+      "meanings": ["party", "faction", "clique"],
+      "onyomi": ["トウ"],
+      "kunyomi": ["なかま", "むら"]
+    },
+    {
+      "character": "協",
+      "meanings": ["cooperation"],
+      "onyomi": ["キョウ"],
+      "kunyomi": []
+    },
+    {
+      "character": "総",
+      "meanings": ["general", "whole", "all"],
+      "onyomi": ["ソウ"],
+      "kunyomi": ["すべ(て)", "ふさ"]
+    },
+    {
+      "character": "区",
+      "meanings": ["ward", "district"],
+      "onyomi": ["ク"],
+      "kunyomi": []
+    },
+    {
+      "character": "領",
+      "meanings": ["jurisdiction", "dominion"],
+      "onyomi": ["リョウ"],
+      "kunyomi": ["えり"]
+    },
+    {
+      "character": "県",
+      "meanings": ["prefecture"],
+      "onyomi": ["ケン"],
+      "kunyomi": ["か(ける)"]
+    },
+    {
+      "character": "設",
+      "meanings": ["establishment", "provision"],
+      "onyomi": ["セツ"],
+      "kunyomi": ["もう(ける)"]
+    },
+    {
+      "character": "保",
+      "meanings": ["protect", "guarantee", "keep"],
+      "onyomi": ["ホ", "ホウ"],
+      "kunyomi": ["たも(つ)"]
+    },
+    {
+      "character": "改",
+      "meanings": ["reformation", "change", "modify"],
+      "onyomi": ["カイ"],
+      "kunyomi": ["あらた(める)"]
+    },
+    {
+      "character": "第",
+      "meanings": ["No.", "number"],
+      "onyomi": ["ダイ"],
+      "kunyomi": []
+    }
+  ],
+  "N3": [
+    {
+      "character": "政",
+      "meanings": ["politics", "government"],
+      "onyomi": ["セイ"],
+      "kunyomi": ["まつりごと"]
+    },
+    {
+      "character": "議",
+      "meanings": ["deliberation", "consultation", "debate"],
+      "onyomi": ["ギ"],
+      "kunyomi": []
+    },
+    {
+      "character": "民",
+      "meanings": ["people", "nation", "subjects"],
+      "onyomi": ["ミン"],
+      "kunyomi": ["たみ"]
+    },
+    {
+      "character": "連",
+      "meanings": ["take along", "lead", "join", "connect"],
+      "onyomi": ["レン"],
+      "kunyomi": ["つら(なる)", "つ(れる)"]
+    },
+    {
+      "character": "対",
+      "meanings": ["opposite", "even", "equal", "versus", "anti-", "compare"],
+      "onyomi": ["タイ", "ツイ"],
+      "kunyomi": []
+    },
+    {
+      "character": "部",
+      "meanings": [
+        "section",
+        "bureau",
+        "dept",
+        "class",
+        "copy",
+        "part",
+        "portion"
+      ],
+      "onyomi": ["ブ"],
+      "kunyomi": []
+    },
+    {
+      "character": "合",
+      "meanings": ["fit", "suit", "join", "0.1"],
+      "onyomi": ["ゴウ", "ガッ", "カッ"],
+      "kunyomi": ["あ(う)", "あい"]
+    },
+    {
+      "character": "市",
+      "meanings": ["market", "city", "town"],
+      "onyomi": ["シ"],
+      "kunyomi": ["いち"]
+    },
+    {
+      "character": "内",
+      "meanings": ["inside", "within", "between", "among", "house", "home"],
+      "onyomi": ["ナイ"],
+      "kunyomi": ["うち"]
+    },
+    {
+      "character": "相",
+      "meanings": [
+        "inter-",
+        "mutual",
+        "together",
+        "each other",
+        "minister of state"
+      ],
+      "onyomi": ["ソウ", "ショウ"],
+      "kunyomi": ["あい"]
+    }
+  ],
+  "N4": [
+    {
+      "character": "会",
+      "meanings": ["meeting", "meet"],
+      "onyomi": ["カイ"],
+      "kunyomi": ["あ(う)"]
+    },
+    {
+      "character": "同",
+      "meanings": ["same", "agree", "equal"],
+      "onyomi": ["ドウ"],
+      "kunyomi": ["おな(じ)"]
+    },
+    {
+      "character": "事",
+      "meanings": ["matter", "thing", "fact", "business", "reason", "possibly"],
+      "onyomi": ["ジ"],
+      "kunyomi": ["こと"]
+    },
+    {
+      "character": "自",
+      "meanings": ["oneself"],
+      "onyomi": ["ジ", "シ"],
+      "kunyomi": ["みずか(ら)"]
+    },
+    {
+      "character": "社",
+      "meanings": ["company", "firm", "office", "association", "shrine"],
+      "onyomi": ["シャ"],
+      "kunyomi": ["やしろ"]
+    },
+    {
+      "character": "発",
+      "meanings": ["departure", "discharge", "emit", "start from"],
+      "onyomi": ["ハツ", "ホツ"],
+      "kunyomi": []
+    },
+    {
+      "character": "者",
+      "meanings": ["someone", "person"],
+      "onyomi": ["シャ"],
+      "kunyomi": ["もの"]
+    },
+    {
+      "character": "地",
+      "meanings": ["ground", "earth"],
+      "onyomi": ["チ", "ジ"],
+      "kunyomi": []
+    },
+    {
+      "character": "業",
+      "meanings": ["business", "vocation", "arts", "performance"],
+      "onyomi": ["ギョウ"],
+      "kunyomi": ["わざ"]
+    },
+    {
+      "character": "方",
+      "meanings": ["direction", "person", "alternative"],
+      "onyomi": ["ホウ"],
+      "kunyomi": ["かた"]
+    }
+  ],
   "N5": [
     {
       "character": "日",
