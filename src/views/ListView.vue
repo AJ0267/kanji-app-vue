@@ -60,7 +60,7 @@
       Kanji List ({{ selectedLevel.toUpperCase() }})
     </h1>
 
-    <!-- Responsive Grid Layout -->
+
     <div
       class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-2"
     >
@@ -73,14 +73,14 @@
         <span class="text-2xl">{{ kanji.character }}</span>
         <span class="ml-4 text-gray-600">
           {{ kanji.meanings.slice(0, 2).join(", ") }}
-          <!-- Limit to 2 meanings -->
+         
           <span v-if="kanji.meanings.length > 2">...</span>
-          <!-- Indicate more meanings -->
+          
         </span>
       </a>
     </div>
 
-    <!-- Centered Pagination Controls -->
+    
     <div class="flex justify-center items-center mt-4 space-x-4">
       <button
         @click="prevPage"
@@ -112,11 +112,11 @@
 
 <script>
 import Navbar from "../components/Navbar.vue";
-import n5Data from "@/assets/KanjiData/N5KanjiData.json";
-import n4Data from "@/assets/KanjiData/N4KanjiData.json";
-import n3Data from "@/assets/KanjiData/N3KanjiData.json";
-import n2Data from "@/assets/KanjiData/N2KanjiData.json";
-import n1Data from "@/assets/KanjiData/N1KanjiData.json";
+import n5Data from "/data/N5KanjiData.json"; 
+import n4Data from "/data/N4KanjiData.json";
+import n3Data from "/data/N3KanjiData.json";
+import n2Data from "/data/N2KanjiData.json";
+import n1Data from "/data/N1KanjiData.json";
 
 export default {
   components: {
@@ -165,16 +165,16 @@ export default {
       };
       this.kanjiData = kanjiFiles[this.selectedLevel] || [];
       this.currentPage = 1;
-      this.searchQuery = ""; // Clear the search query when changing levels
+      this.searchQuery = ""; 
     },
     handleSearch(query) {
       this.searchQuery = query;
       this.currentPage = 1;
     },
     showKanjiAlert(kanji) {
-      // Implement the logic to show the Kanji alert/modal here
+      
       console.log("clicked on kanji", kanji.character);
-      // You might want to use a dialog component here
+     
     },
     prevPage() {
       if (this.currentPage > 1) {
@@ -188,7 +188,10 @@ export default {
     },
   },
   mounted() {
-    this.fetchKanjiData(); // Fetch initial data
+    this.fetchKanjiData(); 
   },
 };
 </script>
+
+
+
