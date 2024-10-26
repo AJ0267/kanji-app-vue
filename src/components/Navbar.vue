@@ -17,7 +17,6 @@
             :placeholder="searchPlaceholder"
             class="input input-bordered border-2 w-24 sm:w-20 md:w-40 lg:w-auto"
             :class="borderClass"
-            @keyup.enter="onSearch"
           />
         </div>
         <button
