@@ -1,0 +1,78 @@
+{
+  "N3": [
+    {
+      "character": "政",
+      "meanings": ["politics", "government"],
+      "onyomi": ["セイ"],
+      "kunyomi": ["まつりごと"]
+    },
+    {
+      "character": "議",
+      "meanings": ["deliberation", "consultation", "debate"],
+      "onyomi": ["ギ"],
+      "kunyomi": []
+    },
+    {
+      "character": "民",
+      "meanings": ["people", "nation", "subjects"],
+      "onyomi": ["ミン"],
+      "kunyomi": ["たみ"]
+    },
+    {
+      "character": "連",
+      "meanings": ["take along", "lead", "join", "connect"],
+      "onyomi": ["レン"],
+      "kunyomi": ["つら(なる)", "つ(れる)"]
+    },
+    {
+      "character": "対",
+      "meanings": ["opposite", "even", "equal", "versus", "anti-", "compare"],
+      "onyomi": ["タイ", "ツイ"],
+      "kunyomi": []
+    },
+    {
+      "character": "部",
+      "meanings": [
+        "section",
+        "bureau",
+        "dept",
+        "class",
+        "copy",
+        "part",
+        "portion"
+      ],
+      "onyomi": ["ブ"],
+      "kunyomi": []
+    },
+    {
+      "character": "合",
+      "meanings": ["fit", "suit", "join", "0.1"],
+      "onyomi": ["ゴウ", "ガッ", "カッ"],
+      "kunyomi": ["あ(う)", "あい"]
+    },
+    {
+      "character": "市",
+      "meanings": ["market", "city", "town"],
+      "onyomi": ["シ"],
+      "kunyomi": ["いち"]
+    },
+    {
+      "character": "内",
+      "meanings": ["inside", "within", "between", "among", "house", "home"],
+      "onyomi": ["ナイ"],
+      "kunyomi": ["うち"]
+    },
+    {
+      "character": "相",
+      "meanings": [
+        "inter-",
+        "mutual",
+        "together",
+        "each other",
+        "minister of state"
+      ],
+      "onyomi": ["ソウ", "ショウ"],
+      "kunyomi": ["あい"]
+    }
+  ]
+}

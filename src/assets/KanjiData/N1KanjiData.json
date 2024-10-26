@@ -1,0 +1,64 @@
+{
+  "N1": [
+    {
+      "character": "氏",
+      "meanings": ["family name", "surname", "clan"],
+      "onyomi": ["シ"],
+      "kunyomi": ["うじ"]
+    },
+    {
+      "character": "統",
+      "meanings": ["ruling", "governing"],
+      "onyomi": ["トウ"],
+      "kunyomi": ["す(べる)"]
+    },
+    {
+      "character": "基",
+      "meanings": ["fundamentals", "foundation"],
+      "onyomi": ["キ"],
+      "kunyomi": ["もと", "もとい"]
+    },
+    {
+      "character": "価",
+      "meanings": ["value", "price"],
+      "onyomi": ["カ"],
+      "kunyomi": ["あたい"]
+    },
+    {
+      "character": "提",
+      "meanings": ["propose", "take along", "carry in hand"],
+      "onyomi": ["テイ"],
+      "kunyomi": ["さ(げる)"]
+    },
+    {
+      "character": "挙",
+      "meanings": ["raise", "plan", "project", "behavior", "actions"],
+      "onyomi": ["キョ"],
+      "kunyomi": ["あ(げる)", "こぞ(る)"]
+    },
+    {
+      "character": "応",
+      "meanings": ["apply", "answer", "yes", "OK", "reply", "accept"],
+      "onyomi": ["オウ"],
+      "kunyomi": ["こた(える)"]
+    },
+    {
+      "character": "企",
+      "meanings": ["undertake", "scheme", "design", "attempt", "plan"],
+      "onyomi": ["キ"],
+      "kunyomi": ["くわだ(てる)", "たくら(む)"]
+    },
+    {
+      "character": "検",
+      "meanings": ["examination", "investigate"],
+      "onyomi": ["ケン"],
+      "kunyomi": ["しら(べる)"]
+    },
+    {
+      "character": "藤",
+      "meanings": ["wisteria"],
+      "onyomi": ["トウ"],
+      "kunyomi": ["ふじ"]
+    }
+  ]
+}

@@ -1,0 +1,491 @@
+{
+  "N5": [
+    {
+      "character": "日",
+      "meanings": ["day", "sun"],
+      "onyomi": ["ニチ", "ジツ"],
+      "kunyomi": ["ひ", "び", "か"]
+    },
+    {
+      "character": "一",
+      "meanings": ["one"],
+      "onyomi": ["イチ"],
+      "kunyomi": ["ひと(つ)"]
+    },
+    {
+      "character": "国",
+      "meanings": ["country"],
+      "onyomi": ["コク"],
+      "kunyomi": ["くに"]
+    },
+    {
+      "character": "人",
+      "meanings": ["person"],
+      "onyomi": ["ジン", "ニン"],
+      "kunyomi": ["ひと"]
+    },
+    {
+      "character": "年",
+      "meanings": ["year"],
+      "onyomi": ["ネン"],
+      "kunyomi": ["とし"]
+    },
+    {
+      "character": "大",
+      "meanings": ["large", "big"],
+      "onyomi": ["ダイ", "タイ"],
+      "kunyomi": ["おお(きい)"]
+    },
+    {
+      "character": "十",
+      "meanings": ["ten"],
+      "onyomi": ["ジュウ"],
+      "kunyomi": ["とお", "と"]
+    },
+    {
+      "character": "二",
+      "meanings": ["two"],
+      "onyomi": ["ニ", "ジ"],
+      "kunyomi": ["ふた(つ)"]
+    },
+    {
+      "character": "本",
+      "meanings": ["book"],
+      "onyomi": ["ホン"],
+      "kunyomi": ["もと"]
+    },
+    {
+      "character": "中",
+      "meanings": ["in", "inside"],
+      "onyomi": ["チュウ"],
+      "kunyomi": ["なか", "うち", "あた(る)"]
+    },
+    {
+      "character": "長",
+      "meanings": ["long", "leader"],
+      "onyomi": ["チョウ"],
+      "kunyomi": ["なが(い)", "おさ"]
+    },
+    {
+      "character": "出",
+      "meanings": ["exit", "leave"],
+      "onyomi": ["シュツ", "スイ"],
+      "kunyomi": ["で(る)", "だ(す)", "い(でる)"]
+    },
+    {
+      "character": "三",
+      "meanings": ["three"],
+      "onyomi": ["サン"],
+      "kunyomi": ["み(つ)"]
+    },
+    {
+      "character": "時",
+      "meanings": ["time", "hour"],
+      "onyomi": ["ジ"],
+      "kunyomi": ["とき", "-どき"]
+    },
+    {
+      "character": "行",
+      "meanings": ["going", "journey"],
+      "onyomi": ["コウ", "ギョウ", "アン"],
+      "kunyomi": ["い(く)", "ゆ(く)", "おこな(う)"]
+    },
+    {
+      "character": "見",
+      "meanings": ["see", "look at"],
+      "onyomi": ["ケン"],
+      "kunyomi": ["み(る)", "み(せる)"]
+    },
+    {
+      "character": "月",
+      "meanings": ["month", "moon"],
+      "onyomi": ["ゲツ", "ガツ"],
+      "kunyomi": ["つき"]
+    },
+    {
+      "character": "分",
+      "meanings": ["part", "minute"],
+      "onyomi": ["ブン", "フン", "ブ"],
+      "kunyomi": ["わ(ける)"]
+    },
+    {
+      "character": "後",
+      "meanings": ["behind", "later"],
+      "onyomi": ["ゴ", "コウ"],
+      "kunyomi": ["のち", "うし(ろ)", "あと"]
+    },
+    {
+      "character": "前",
+      "meanings": ["in front", "before"],
+      "onyomi": ["ゼン"],
+      "kunyomi": ["まえ"]
+    },
+    {
+      "character": "生",
+      "meanings": ["life", "genuine", "birth"],
+      "onyomi": ["セイ", "ショウ"],
+      "kunyomi": ["い(きる)", "う(む)", "お(う)", "は(える)", "なま"]
+    },
+    {
+      "character": "五",
+      "meanings": ["five"],
+      "onyomi": ["ゴ"],
+      "kunyomi": ["いつ(つ)"]
+    },
+    {
+      "character": "間",
+      "meanings": ["interval", "space"],
+      "onyomi": ["カン", "ケン"],
+      "kunyomi": ["あいだ", "ま", "あい"]
+    },
+    {
+      "character": "上",
+      "meanings": ["above", "up"],
+      "onyomi": ["ジョウ", "ショウ", "シャン"],
+      "kunyomi": [
+        "うえ",
+        "うわ-",
+        "かみ",
+        "あ(げる)",
+        "のぼ(る)",
+        "たてまつ(る)"
+      ]
+    },
+    {
+      "character": "東",
+      "meanings": ["east"],
+      "onyomi": ["トウ"],
+      "kunyomi": ["ひがし"]
+    },
+    {
+      "character": "四",
+      "meanings": ["four"],
+      "onyomi": ["シ"],
+      "kunyomi": ["よ(つ)", "よん"]
+    },
+    {
+      "character": "今",
+      "meanings": ["now", "the present"],
+      "onyomi": ["コン", "キン"],
+      "kunyomi": ["いま"]
+    },
+    {
+      "character": "金",
+      "meanings": ["gold"],
+      "onyomi": ["キン", "コン", "ゴン"],
+      "kunyomi": ["かね", "かな-", "-がね"]
+    },
+    {
+      "character": "九",
+      "meanings": ["nine"],
+      "onyomi": ["キュウ", "ク"],
+      "kunyomi": ["ここの(つ)"]
+    },
+    {
+      "character": "入",
+      "meanings": ["enter", "insert"],
+      "onyomi": ["ニュウ"],
+      "kunyomi": ["い(る)", "はい(る)"]
+    },
+    {
+      "character": "学",
+      "meanings": ["study", "learning", "science"],
+      "onyomi": ["ガク"],
+      "kunyomi": ["まな(ぶ)"]
+    },
+    {
+      "character": "高",
+      "meanings": ["tall", "high", "expensive"],
+      "onyomi": ["コウ"],
+      "kunyomi": ["たか(い)"]
+    },
+    {
+      "character": "円",
+      "meanings": ["circle", "yen", "round"],
+      "onyomi": ["エン"],
+      "kunyomi": ["まる(い)"]
+    },
+    {
+      "character": "子",
+      "meanings": ["child"],
+      "onyomi": ["シ", "ス", "ツ"],
+      "kunyomi": ["こ", "ね"]
+    },
+    {
+      "character": "外",
+      "meanings": ["outside"],
+      "onyomi": ["ガイ", "ゲ"],
+      "kunyomi": ["そと", "ほか", "はず(す)", "と-"]
+    },
+    {
+      "character": "八",
+      "meanings": ["eight"],
+      "onyomi": ["ハチ"],
+      "kunyomi": ["や(つ)", "よう"]
+    },
+    {
+      "character": "六",
+      "meanings": ["six"],
+      "onyomi": ["ロク"],
+      "kunyomi": ["む(つ)", "むい"]
+    },
+    {
+      "character": "下",
+      "meanings": ["below", "down", "descend", "give", "low", "inferior"],
+      "onyomi": ["カ", "ゲ"],
+      "kunyomi": ["した", "しも", "もと", "さ(げる)", "くだ(る)", "お(ろす)"]
+    },
+    {
+      "character": "来",
+      "meanings": ["come", "due", "next", "cause", "become"],
+      "onyomi": ["ライ", "タイ"],
+      "kunyomi": ["く.る", "きた.る", "き", "こ"]
+    },
+    {
+      "character": "気",
+      "meanings": ["spirit", "mind", "air", "atmosphere", "mood"],
+      "onyomi": ["キ", "ケ"],
+      "kunyomi": ["いき"]
+    },
+    {
+      "character": "小",
+      "meanings": ["little", "small"],
+      "onyomi": ["ショウ"],
+      "kunyomi": ["ちい(さい)", "こ-", "お-", "さ-"]
+    },
+    {
+      "character": "七",
+      "meanings": ["seven"],
+      "onyomi": ["シチ"],
+      "kunyomi": ["なな(つ)", "なの"]
+    },
+    {
+      "character": "山",
+      "meanings": ["mountain"],
+      "onyomi": ["サン", "セン"],
+      "kunyomi": ["やま"]
+    },
+    {
+      "character": "話",
+      "meanings": ["tale", "talk"],
+      "onyomi": ["ワ"],
+      "kunyomi": ["はな(す)", "はなし"]
+    },
+    {
+      "character": "女",
+      "meanings": ["woman", "female"],
+      "onyomi": ["ジョ"],
+      "kunyomi": ["おんな", "め"]
+    },
+    {
+      "character": "北",
+      "meanings": ["north"],
+      "onyomi": ["ホク"],
+      "kunyomi": ["きた"]
+    },
+    {
+      "character": "午",
+      "meanings": ["noon", "sign of the horse"],
+      "onyomi": ["ゴ"],
+      "kunyomi": ["うま"]
+    },
+    {
+      "character": "百",
+      "meanings": ["hundred"],
+      "onyomi": ["ヒャク", "ビャク"],
+      "kunyomi": ["もも"]
+    },
+    {
+      "character": "書",
+      "meanings": ["write"],
+      "onyomi": ["ショ"],
+      "kunyomi": ["か(く)"]
+    },
+    {
+      "character": "先",
+      "meanings": ["before", "ahead", "previous", "future", "precedence"],
+      "onyomi": ["セン"],
+      "kunyomi": ["さき", "ま(ず)"]
+    },
+    {
+      "character": "名",
+      "meanings": ["name", "noted", "distinguished", "reputation"],
+      "onyomi": ["メイ", "ミョウ"],
+      "kunyomi": ["な"]
+    },
+    {
+      "character": "川",
+      "meanings": ["river", "stream"],
+      "onyomi": ["セン"],
+      "kunyomi": ["かわ"]
+    },
+    {
+      "character": "千",
+      "meanings": ["thousand"],
+      "onyomi": ["セン"],
+      "kunyomi": ["ち"]
+    },
+    {
+      "character": "水",
+      "meanings": ["water"],
+      "onyomi": ["スイ"],
+      "kunyomi": ["みず"]
+    },
+    {
+      "character": "半",
+      "meanings": ["half", "middle", "odd number", "semi-"],
+      "onyomi": ["ハン"],
+      "kunyomi": ["なか(ば)"]
+    },
+    {
+      "character": "男",
+      "meanings": ["male", "man"],
+      "onyomi": ["ダン", "ナン"],
+      "kunyomi": ["おとこ", "お"]
+    },
+    {
+      "character": "西",
+      "meanings": ["west"],
+      "onyomi": ["セイ", "サイ"],
+      "kunyomi": ["にし"]
+    },
+    {
+      "character": "電",
+      "meanings": ["electricity", "electric powered"],
+      "onyomi": ["デン"],
+      "kunyomi": []
+    },
+    {
+      "character": "校",
+      "meanings": ["school", "exam"],
+      "onyomi": ["コウ"],
+      "kunyomi": []
+    },
+    {
+      "character": "語",
+      "meanings": ["word", "speech", "language"],
+      "onyomi": ["ゴ"],
+      "kunyomi": ["かた(る)"]
+    },
+    {
+      "character": "土",
+      "meanings": ["soil", "earth", "ground"],
+      "onyomi": ["ド", "ト"],
+      "kunyomi": ["つち"]
+    },
+    {
+      "character": "木",
+      "meanings": ["tree", "wood"],
+      "onyomi": ["ボク", "モク"],
+      "kunyomi": ["き", "こ-"]
+    },
+    {
+      "character": "聞",
+      "meanings": ["to hear", "to listen", "to ask"],
+      "onyomi": ["ブン", "モン"],
+      "kunyomi": ["き(く)"]
+    },
+    {
+      "character": "食",
+      "meanings": ["eat", "food"],
+      "onyomi": ["ショク", "ジキ"],
+      "kunyomi": ["く(う)", "た(べる)", "は(む)"]
+    },
+    {
+      "character": "車",
+      "meanings": ["car", "wheel"],
+      "onyomi": ["シャ"],
+      "kunyomi": ["くるま"]
+    },
+    {
+      "character": "何",
+      "meanings": ["what"],
+      "onyomi": ["カ"],
+      "kunyomi": ["なに", "なん"]
+    },
+    {
+      "character": "南",
+      "meanings": ["south"],
+      "onyomi": ["ナン", "ナ"],
+      "kunyomi": ["みなみ"]
+    },
+    {
+      "character": "万",
+      "meanings": ["ten thousand"],
+      "onyomi": ["マン", "バン"],
+      "kunyomi": []
+    },
+    {
+      "character": "毎",
+      "meanings": ["every"],
+      "onyomi": ["マイ"],
+      "kunyomi": ["ごと(に)"]
+    },
+    {
+      "character": "白",
+      "meanings": ["white"],
+      "onyomi": ["ハク", "ビャク"],
+      "kunyomi": ["しろ(い)"]
+    },
+    {
+      "character": "天",
+      "meanings": ["heavens", "sky", "imperial"],
+      "onyomi": ["テン"],
+      "kunyomi": ["あまつ"]
+    },
+    {
+      "character": "母",
+      "meanings": ["mother"],
+      "onyomi": ["ボ"],
+      "kunyomi": ["はは", "かあ"]
+    },
+    {
+      "character": "火",
+      "meanings": ["fire"],
+      "onyomi": ["カ"],
+      "kunyomi": ["ひ", "び", "ほ-"]
+    },
+    {
+      "character": "右",
+      "meanings": ["right (direction)"],
+      "onyomi": ["ウ", "ユウ"],
+      "kunyomi": ["みぎ"]
+    },
+    {
+      "character": "読",
+      "meanings": ["to read"],
+      "onyomi": ["ドク", "トク", "トウ"],
+      "kunyomi": ["よ(む)"]
+    },
+    {
+      "character": "友",
+      "meanings": ["friend"],
+      "onyomi": ["ユウ"],
+      "kunyomi": ["とも"]
+    },
+    {
+      "character": "左",
+      "meanings": ["left"],
+      "onyomi": ["サ", "シャ"],
+      "kunyomi": ["ひだり"]
+    },
+    {
+      "character": "休",
+      "meanings": ["rest", "day off", "retire", "sleep"],
+      "onyomi": ["キュウ"],
+      "kunyomi": ["やす(む)"]
+    },
+    {
+      "character": "父",
+      "meanings": ["father"],
+      "onyomi": ["フ"],
+      "kunyomi": ["ちち", "とう"]
+    },
+    {
+      "character": "雨",
+      "meanings": ["rain"],
+      "onyomi": ["ウ"],
+      "kunyomi": ["あめ", "あま"]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "N4": [
+    {
+      "character": "会",
+      "meanings": ["meeting", "meet"],
+      "onyomi": ["カイ"],
+      "kunyomi": ["あ(う)"]
+    },
+    {
+      "character": "同",
+      "meanings": ["same", "agree", "equal"],
+      "onyomi": ["ドウ"],
+      "kunyomi": ["おな(じ)"]
+    },
+    {
+      "character": "事",
+      "meanings": ["matter", "thing", "fact", "business", "reason", "possibly"],
+      "onyomi": ["ジ"],
+      "kunyomi": ["こと"]
+    },
+    {
+      "character": "自",
+      "meanings": ["oneself"],
+      "onyomi": ["ジ", "シ"],
+      "kunyomi": ["みずか(ら)"]
+    },
+    {
+      "character": "社",
+      "meanings": ["company", "firm", "office", "association", "shrine"],
+      "onyomi": ["シャ"],
+      "kunyomi": ["やしろ"]
+    },
+    {
+      "character": "発",
+      "meanings": ["departure", "discharge", "emit", "start from"],
+      "onyomi": ["ハツ", "ホツ"],
+      "kunyomi": []
+    },
+    {
+      "character": "者",
+      "meanings": ["someone", "person"],
+      "onyomi": ["シャ"],
+      "kunyomi": ["もの"]
+    },
+    {
+      "character": "地",
+      "meanings": ["ground", "earth"],
+      "onyomi": ["チ", "ジ"],
+      "kunyomi": []
+    },
+    {
+      "character": "業",
+      "meanings": ["business", "vocation", "arts", "performance"],
+      "onyomi": ["ギョウ"],
+      "kunyomi": ["わざ"]
+    },
+    {
+      "character": "方",
+      "meanings": ["direction", "person", "alternative"],
+      "onyomi": ["ホウ"],
+      "kunyomi": ["かた"]
+    }
+  ]
+}
