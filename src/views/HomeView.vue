@@ -6,6 +6,7 @@
       :title="card.title"
       :description="card.description"
       @onClick="changeRoute(card.route)"
+      class="bg-darkGray text-brightOrange"
     />
   </div>
 </template>
@@ -26,7 +27,7 @@ export default {
       },
       {
         title: "Kanji List",
-        description: "lists of Kanji.",
+        description: "Lists of Kanji.",
         route: '/list',
       },
     ];

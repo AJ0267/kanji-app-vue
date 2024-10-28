@@ -4,6 +4,7 @@
 @tailwind utilities;
 
 
+
 body {
-    @apply font-custom; 
-  }
+  @apply font-custom;
+}

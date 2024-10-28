@@ -6,6 +6,12 @@ export default {
       fontFamily: {
         custom: ["Outfit", "sans-serif"],
       },
+      colors: {
+        darkGray: '#454545',
+        brightOrange: '#FF6000',
+        softOrange: '#FFA559',
+        lightPeach: '#FFE6C7',
+      },
     },
   },
   plugins: [require('daisyui'),],

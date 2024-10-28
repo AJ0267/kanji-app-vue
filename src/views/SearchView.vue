@@ -1,119 +1,8 @@
-<!-- <template>
-  <Navbar
-    title="Search Kanji"
-    titleColor="#333"
-    searchPlaceholder="Search for something..."
-    buttonText="Go"
-    buttonColor="#5a67d8"
-    @search="handleSearch"
-  />
-
-  <div>
-    <div class="flex flex-col items-center p-4">
-      <div
-        class="flex flex-col sm:flex-row sm:justify-between mt-4 w-full max-w-[800px]"
-      >
-       
-        <div
-          class="bg-orange-100 shadow-lg rounded-lg p-4 mb-4 sm:mb-0 sm:w-full relative"
-        >
-          <div class="absolute top-4 right-4">
-            <div
-              class="text-6xl font-bold text-orange-600 bg-white rounded-md p-4 shadow-lg"
-              v-if="kanjiData"
-            >
-              {{ kanjiData.kanji }}
-            </div>
-            <div
-              class="text-6xl font-bold text-orange-600 bg-white rounded-md p-4 shadow-lg"
-              v-else
-            >
-              {{ exampleData.kanji }}
-             
-            </div>
-          </div>
-
-          <h2 class="text-lg font-bold mb-2">Kanji Information</h2>
-          <p class="mb-1">
-            <strong>Grade:</strong>
-            {{ kanjiData ? kanjiData.grade : exampleData.grade }}
-          </p>
-          <p class="mb-1">
-            <strong>JLPT Level:</strong>
-            {{
-              kanjiData
-                ? kanjiData.jlpt === null
-                  ? "null"
-                  : kanjiData.jlpt === 0
-                  ? "N5"
-                  : "N" + (kanjiData.jlpt + 1)
-                : exampleData.jlpt === 0
-                ? "N5"
-                : "N" + (exampleData.jlpt + 1)
-            }}
-          </p>
-          <p class="mb-1">
-            <strong>Kanji:</strong>
-            {{ kanjiData ? kanjiData.kanji : exampleData.kanji }}
-          </p>
-          <p class="mb-1">
-            <strong>Meanings:</strong>
-            {{
-              kanjiData
-                ? kanjiData.meanings.join(", ")
-                : exampleData.meanings.join(", ")
-            }}
-          </p>
-          <p class="mb-1">
-            <strong>On Readings:</strong>
-            {{
-              kanjiData
-                ? kanjiData.on_readings.join(", ")
-                : exampleData.on_readings.join(", ")
-            }}
-          </p>
-          <p>
-            <strong>Kun Readings:</strong>
-            {{
-              kanjiData
-                ? kanjiData.kun_readings.join(", ")
-                : exampleData.kun_readings.join(", ")
-            }}
-          </p>
-        </div>
-      </div>
-
-      
-      <div
-        v-if="!kanjiData && !loading && searchInitiated"
-        class="mt-4 text-center text-gray-500"
-      >
-        <p>No data found. Please search for a Kanji character.</p>
-      </div>
-
-    
-      <div
-        v-if="kanjiData && searchInitiated"
-        class="mt-4 w-full max-w-full cursor-pointer"
-        @click="redirectToJisho"
-      >
-        <div class="bg-blue-100 shadow-lg rounded-lg p-4 text-center">
-          <p class="font-bold text-blue-600">More Data</p>
-          <p class="text-sm text-gray-500">
-            Click for more details on Jisho.org
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</template> -->
 <template>
   <Navbar
     title="Search Kanji"
-    titleColor="#333"
     searchPlaceholder="Search for something..."
     buttonText="Go"
-    buttonColor="#5a67d8"
     @search="handleSearch"
   />
 
@@ -121,11 +10,11 @@
     <div class="flex flex-col items-center w-full max-w-[800px]">
       <!-- Kanji Card -->
       <div
-        class="bg-orange-100 shadow-lg rounded-lg p-4 mb-4 w-full relative"
+        class="bg-softOrange shadow-lg rounded-lg p-4 mb-4 w-full relative"
       >
         <div class="absolute top-4 right-4">
           <div
-            class="text-6xl font-bold text-orange-600 bg-white rounded-md p-4 shadow-lg"
+            class="text-6xl font-bold text-brightOrange bg-white rounded-md p-4 shadow-lg"
             v-if="kanjiData"
           >
             {{ kanjiData.kanji }}
@@ -189,7 +78,7 @@
           }}
         </p>
         <!-- Example disclaimer -->
-        <p v-if="!searchInitiated" class="mt-2 text-sm text-gray-500">
+        <p v-if="!searchInitiated" class="mt-2 text-sm text-darkGray">
           ({{ exampleData.kanji }} is just for illustration.)
         </p>
       </div>
@@ -210,7 +99,7 @@
       >
         <div class="bg-blue-100 shadow-lg rounded-lg p-4 text-center w-full">
           <p class="font-bold text-blue-600">More Data</p>
-          <p class="text-sm text-gray-500">
+          <p class="text-sm text-darkGray">
             Click for more details on Jisho.org
           </p>
         </div>
@@ -218,7 +107,6 @@
     </div>
   </div>
 </template>
-
 
 <script>
 import Navbar from "../components/Navbar.vue";

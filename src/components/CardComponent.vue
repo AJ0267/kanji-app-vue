@@ -5,7 +5,7 @@
   >
     <div class="card-body flex flex-col items-center justify-center h-full">
       <h1 class="text-5xl font-bold text-center select-none">{{ title }}</h1>
-      <p class="text-center">{{ description }}</p>
+      <p class="text-center text-lightPeach">{{ description }}</p>
     </div>
   </a>
 </template>
