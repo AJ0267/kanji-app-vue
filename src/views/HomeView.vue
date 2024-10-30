@@ -11,7 +11,7 @@
   </div>
   <br />
   <div class="text-center">
-    <p class="mt-2 text-sm text-darkGray">
+    <p class="mt-2 text-xl text-darkGray">
       This app is still in progress; additional data will be added soon.
     </p>
   </div>
