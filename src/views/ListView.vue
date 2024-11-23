@@ -196,7 +196,7 @@ export default {
             </p>
             <p class="text-brightOrange text-lg mb-1"><strong>Kun Readings:</strong> 
               <span v-if="kanji.kunyomi.length" class="text-softOrange ml-2">{{ kanji.kunyomi.join(", ") }}</span>
-              <span v-else>No kun readings available</span>
+              <span v-else class="text-softOrange ml-2">No kun readings available</span>
             </p>
 
             <!-- Action Buttons -->
@@ -269,7 +269,7 @@ export default {
       currentPage: 1,
       itemsPerPage: 8,
       searchQuery: "",
-      expandedKanji: null, // To track the currently expanded Kanji
+      expandedKanji: null, 
     };
   },
   computed: {
@@ -300,14 +300,14 @@ export default {
       this.kanjiData = kanjiData[this.selectedLevel] || [];
       this.currentPage = 1;
       this.searchQuery = "";
-      this.expandedKanji = null; // Reset expanded Kanji when data is fetched
+      this.expandedKanji = null; 
     },
     handleSearch(query) {
       this.searchQuery = query;
       this.currentPage = 1;
     },
     toggleKanji(kanji) {
-      // Set expandedKanji to the clicked kanji character or null if it's already expanded
+      
       this.expandedKanji = this.expandedKanji === kanji.character ? null : kanji.character;
     },
     prevPage() {
@@ -321,7 +321,6 @@ export default {
       }
     },
     openMore(kanji) {
-      // Open the Jisho URL in a new tab
       window.open(`https://jisho.org/search/${kanji} %23kanji`, "_blank");
     },
   },
