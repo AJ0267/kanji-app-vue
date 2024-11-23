@@ -27,7 +27,7 @@
 
       <div
         v-if="currentQuestion"
-        class="kanji-tile p-6 bg-gray-800 rounded-lg shadow-md flex flex-col justify-between space-y-4"
+        class="kanji-tile p-6 bg-gray-800 rounded-lg shadow-md flex flex-col justify-between space-y-4 mx-auto max-w-lg"
       >
         <div class="text-center">
           <span class="text-4xl font-semibold text-orange-400">
